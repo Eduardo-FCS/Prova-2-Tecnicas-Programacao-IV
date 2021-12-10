@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title></title>
+        <title>Prova 2</title>
         
         <meta charset="utf-8">
         <link rel="stylesheet" href="./css/index.css">
     </head>
     <body>
-        
+        <div id="container">
+            <div>
+                <form id="userform">
+                    <h1>Seja bem-vindo à prova 2!</h1>
+                    <div>
+                        <label for="username" class="Sugestions">Usuário:</label>
+                        <input type="text" placeholder="Login de usuário" id="username" required>
+                    </div>
+                    <div>
+                        <label for="password" class="Sugestions">Senha:</label>
+                        <input type="text" placeholder="Senha de usuário" id="password" required>
+                    </div>
+                    <input type="button" value="Login" id="lgnBtn">
+                    <div id="result"></div>
+                </form>
+            </div>
+        </div>
 
         <script src="./js/index.js"></script>
     </body>
